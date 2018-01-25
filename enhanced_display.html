@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Enchanced Display</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/vendors/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/custom/weekthreebwstyle.scss">
+    <script src="js/vendors/bootstrap.min.js"></script>
+    <script src="js/vendors/jquery-1.11.3.min.js"></script>
+    <script src="js/vendors/jquery-ui-1.11.4.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/custom/enhanced_display.js"></script>
+  
+   
+</head>
+
+<body id="enhanced_display">
+    <!-- Top Navigation Bar -->
+    <nav class="navbar navbar-default" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button id="navButton" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBarList">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand">
+                    <span><img src="images/icons/it.png"></span>
+                    <a style="display:inline" id="pageTitle">Beautiful Women</a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navBarList">
+                <ul class="nav navbar-nav pull-right" id="navBarTop">
+                    <li><a href="#famous_women" class="navList">Famous Women</a></li>
+                    <li><a href="#organizations" class="navList">Organizations</a></li>
+                    <li><a href="#fun_facts" class="navList">Fun Facts</a></li>
+                    <li><a href="#mobile_app" class="navList">Mobile App</a></li>
+                    <li><a href="#works" class="navList">Works</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Famous Women -->
+    <div class="container-fluid section text-center" id="famous_women">
+
+        <!-- Famous Women Navigation Bar -->
+        <div class="row secNav text-center">
+            <div class="col-xs-2 col-sm-1">
+                <a href="#enhanced_display" class="pull-left"><img src="images/icons/up.png" onmouseover="this.src='images/icons/up_hover.png'" onmouseout="this.src='images/icons/up.png'">
+                </a>
+            </div>
+            <div class="col-xs-8 col-sm-10">
+                <p class="secheading">
+                    <a name="fwheading"></a>
+                    Famous Women
+                </p>
+            </div>
+            <div class="col-xs-2 col-sm-1">
+                <a href="#organizations" class="pull-right"><img src="images/icons/down.png" onmouseover="this.src='images/icons/down_hover.png'" onmouseout="this.src='images/icons/down.png'">
+                </a>
+            </div>
+        </div>
+
+        <!-- Famous Women Content - First Row -->
+        <div class="row famousWomen text-center">
+            <div class="col-sm-4 col-md-4" id="above_left">
+                <div class="thumbnail">
+                    <p class="box_name">M&#233;lanie Laurent</p>
+                    <p class="box_date">(1983 -)</p>
+                    <img class="img-responsive img-circle margin" style="display: inline" width="300" height="300" src="images/displays/ml.jpg" alt="M&#233;lanie Laurent">
+                    <p class="box_content">M&#233;lanie Laurent was born in Paris, France. She is the daughter of Annick, a ballet teacher, and Pierre, a voice actor</p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4" id="above_center">
+                <div class="thumbnail">
+                    <p class="box_name">Elizabeth Debicki</p>
+                    <p class="box_date">(1990 -)</p>
+                    <img class="img-responsive img-circle margin" style="display: inline" width="300" height="300" src="images/displays/ed.jpg" alt="Elizabeth Debicki">
+                    <p class="box_content">Debicki was born in Paris to a Polish father and an Australian mother of Irish descent, who were both dancers</p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4" id="above_right">
+                <div class="thumbnail">
+                    <p class="box_name">Audrey Hepburm</p>
+                    <p class="box_date">(1929 - 1993)</p>
+                    <img class="img-responsive img-circle margin" style="display: inline" width="300" height="300" src="images/displays/ah.jpg" alt="Audrey Hepbrn">
+                    <p class="box_content">Audrey Hepbrn was a British actress and humanitarian. Recognised as a film and fashion icon, Hepburn was active during Hollywood's Golden Age</p>
+                </div>
+            </div>
+        </div>
+        <!-- Famous Women Content - Second Row -->
+        <div class="row famousWomen text-center">
+            <div class="col-sm-4 col-md-4" id="above_left">
+                <div class="thumbnail">
+                    <p class="box_name">Margot Robbie</p>
+                    <p class="box_date">(1990 -)</p>
+                    <img class="img-responsive img-circle margin" style="display: inline" width="300" height="300" src="images/displays/mr.jpg" alt="Margot Robbie">
+                    <p class="box_content">Australian actress Margot Robbie was raised on the Gold Coast, spending much of her time at the farm belonging to her grandparents</p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4" id="above_center">
+                <div class="thumbnail">
+                    <p class="box_name">Cl&#233;mence Po&#233;sy</p>
+                    <p class="box_date">(1982 -)</p>
+                    <img class="img-responsive img-circle margin" style="display: inline" width="300" height="300" src="images/displays/cp.jpg" alt="Cl&#233;mence Po&#233;sy">
+                    <p class="box_content">Cl&#233;mence Po&#233;sy is a French actress and fashion model. After starting on the stage as a child, Po&#233;sy had dramatic education, and has been active in both film and television since 1999</p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4" id="above_right">
+                <div class="thumbnail">
+                    <p class="box_name">Gal Gadot</p>
+                    <p class="box_date">(1985 -)</p>
+                    <img class="img-responsive img-circle margin" style="display: inline" width="300" height="300" src="images/displays/gg.jpg">
+                    <p class="box_content">Gal Gadot is an Israeli actress and fashion model. She won the Miss Israel title in 2004 and went on to represent Israel at the 2004 Miss Universe beauty pageant</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Organizations -->
+    <div class="container-fluid section" id="organizations">
+        <!-- Organizations Navigation Bar -->
+        <div class="row secNav text-center">
+            <div class="col-xs-2 col-sm-1">
+                <a href="#famous_women" class="pull-left"><img src="images/icons/up.png" onmouseover="this.src='images/icons/up_hover.png'" onmouseout="this.src='images/icons/up.png'">
+                </a>
+            </div>
+            <div class="col-xs-8 col-sm-10">
+                <p class="secheading">
+                    <a name="fwheading"></a>
+                    Organizations
+                </p>
+            </div>
+            <div class="col-xs-2 col-sm-1">
+                <a href="#fun_facts" class="pull-right"><img src="images/icons/down.png" onmouseover="this.src='images/icons/down_hover.png'" onmouseout="this.src='images/icons/down.png'">
+                </a>
+            </div>
+        </div>
+        <!-- Orgnizations Content -->
+        <div class="row" id="org_lead">
+            <div class="col-md-10 col-md-offset-1">
+                <p>There are awesome organizations that help women in computing. This is a brief list and there are many more out there.</p>
+            </div>
+        </div>
+        <!-- Orgnizations Lists and Logos -->
+        <div class="list">
+            <div id="orglist">
+                <ul style="list-style:none">
+                    <li> 
+                    	<img src="images/icons/heart.png">              
+                    	<span style="display:inline"> National Center for Women &amp; Information Technology</span>    
+                    </li>
+
+                    <li>          
+                    	<img src="images/icons/heart.png">              
+                    	<span style="display:inline"> Anita Borg Institute for Women and Technology</span> 
+                    </li>
+
+                    <li>
+                    	<img src="images/icons/heart.png">              
+                    	<span style="display:inline"> The Ada Initiative</span>   
+                    </li>
+
+                    <li>
+						<img src="images/icons/heart.png">              
+                    	<span style="display:inline"> Girl Develop It</span>   
+                    </li>
+
+                    <li>  
+                        <img src="images/icons/heart.png">              
+                    	<span style="display:inline"> Black Girls Code</span>   
+                    </li>
+
+                    <li>   
+                        <img src="images/icons/heart.png">              
+                    	<span style="display:inline"> Rails Girls</span>    
+                    </li>
+                </ul>
+                <img id="organizations_img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Fun Facts -->
+    <div class="container-fluid section" id="fun_facts">
+        <!-- Fun Facts Navigation Bar -->
+        <div class="row secNav text-center">
+            <div class="col-xs-2 col-sm-1">
+                <a href="#organizations" class="pull-left"><img src="images/icons/up.png" onmouseover="this.src='images/icons/up_hover.png'" onmouseout="this.src='images/icons/up.png'">
+                </a>
+            </div>
+            <div class="col-xs-8 col-sm-10">
+                <p class="secheading">
+                    <a name="fwheading"></a>
+                    Fun Facts
+                </p>
+            </div>
+            <div class="col-xs-2 col-sm-1">
+                <a href="#mobile_app" class="pull-right"><img src="images/icons/down.png" onmouseover="this.src='images/icons/down_hover.png'" onmouseout="this.src='images/icons/down.png'">
+                </a>
+            </div>
+        </div>
+        <!-- Fun Facts Lists -->
+        <div class="list" id="ff-list">
+            <ul class="list-group" id="ff-list-group">
+                <li class="list-group-item ff-list-item" style="border: none">
+                    <img src="images/icons/star.png"> Every uear the Anita Borg Institute holds the <span class="ff_span">Grace Hopper Celebration of Women in Computing</span> conference to bring the research and career interests of women in computing to the forefront
+                </li>
+                <li class="list-group-item ff-list-item" style="border: none">
+                    <img src="images/icons/star.png"> 25&#37; of the computing workforce were women in 2011 <span class="ff_span">reference</span>
+                </li>
+                <li class="list-group-item ff-list-item" style="border: none">
+                    <img src="images/icons/star.png"> The <span class="ff_span">DevChix</span> google group has over 1000 members.
+                </li>
+                <li class="list-group-item ff-list-item" style="border: none">
+                    <img src="images/icons/star.png"> Girl Develop It has <span class="ff_span">chaters</span> in eleven cities.
+                </li>
+                <li class="list-group-item ff-list-item" style="border: none">
+                    <img src="images/icons/star.png"> Women earned 18&#37; of the Computer and Information Sciences undergraduate degree in 2010. <span class="ff_span">reference</span>
+                </li>
+                <li class="list-group-item ff-list-item" style="border: none">
+                    <img src="images/icons/star.png"> The U.S. Bureau of Labor Statistics projects that by 2018, there will be a total of nearly 1.4 million computing-related jobs added in the U.S., an increase of 22&#37; from 2008. <span class="ff_span">reference</span>
+                </li>
+                <li class="list-group-item ff-list-item" style="border: none">
+                    <img src="images/icons/star.png"> The median age of women in computing and mathematical occupations is 42. <span class="ff_span">reference</span>
+                </li>
+                <li class="list-group-item ff-list-item" style="border: none">
+                    <img src="images/icons/star.png"> Of the 20 occupations with the highest earnings for women, 5 are computing occupations: computer software engineers, computer and information system managers, computer prgrammers, computer scientists and system analysis, and network systems and data communication analysis. <span class="ff_span">reference</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Mobile App -->
+    <div class="container-fluid section" id="mobile_app">
+        <!-- Mobile App Navigation Bar -->
+        <div class="row secNav text-center">
+            <div class="col-xs-2 col-sm-1">
+                <a href="#fun_facts" class="pull-left"><img src="images/icons/up.png" onmouseover="this.src='images/icons/up_hover.png'" onmouseout="this.src='images/icons/up.png'">
+                </a>
+            </div>
+            <div class="col-xs-8 col-sm-10">
+                <p class="secheading">
+                    <a name="fwheading"></a>
+                    Mobile App
+                </p>
+            </div>
+            <div class="col-xs-2 col-sm-1">
+                <a href="#works" class="pull-right"><img src="images/icons/down.png" onmouseover="this.src='images/icons/down_hover.png'" onmouseout="this.src='images/icons/down.png'">
+                </a>
+            </div>
+        </div>
+    </div>
+        <!-- Mobile App Content -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="page2" class="col-sm-6 col-sm-offset-3">
+                <div class="row">
+                    <div id="personalize" class="col-xs-6 col-sm-4 col-sm-offset-4">Personalize
+                    </div>
+
+                    <div class="col-xs-6 col-sm-4">
+                        <span id="done">Done</span>
+                    </div>
+                </div>
+
+                <div id="tap_to_row" class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <p id="tap_to"> Tap the check marks to Add/Remove categories from your Home Screen. Tap and hold the <img src="images/mobile/stack.png" style="display:inline-block; margin: 0 2px; margin-bottom: -5px; vertical-align:bottom"> to reorder category tiles </p>
+                    </div>
+                </div>
+
+                <div id="want_more_row" class="row">
+                    <a href=""> Want More Local News? Tap Here</a>
+                </div>
+
+                <table id="the_list" class="table" rules="rows">
+                </table>
+
+                <div id="mobile_tiles_foot" class="row">
+                    <div class="col-sm-2 col-sm-offset-3">
+                        <span>Categories</span>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <span>Report News to AP</span>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <span>&nbsp; Settings &nbsp;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="page1" class="col-sm-8 col-sm-offset-2">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-6">
+                        <img id="logo" src="images/mobile/logo.gif">
+                    </div>
+
+                    <div class="col-sm-6 col-xs-6">
+                        <img id="settings_icon" src="images/mobile/gear.png">
+                    </div>
+                </div>
+                
+                <div id="img_table"></div><br>
+                
+                <div class="row">
+                    <div class="col-sm-6 col-xs-6">
+                        <img src="images/mobile/ads.jpg">
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </div>
+
+    <!-- Works -->
+    <div class="container-fluid section" id="works">
+
+        <!-- Works Navigation Bar -->
+         <div class="row secNav text-center">
+            <div class="col-xs-2 col-sm-1">
+                <a href="#mobile_app" class="pull-left"><img src="images/icons/up.png" onmouseover="this.src='images/icons/up_hover.png'" onmouseout="this.src='images/icons/up.png'">
+                    </a>
+            </div>
+
+            <div class="col-xs-8 col-sm-10">
+                <p class="secheading">
+                    <a name="fwheading"></a>
+                    Works
+                </p>
+            </div>
+
+            <div class="col-xs-2 col-sm-1">
+                <a href="#footer" class="pull-right"><img src="images/icons/down.png" onmouseover="this.src='images/icons/down_hover.png'" onmouseout="this.src='images/icons/down.png'">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+        <!-- Carousel -->
+        <div id="works_carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#works_carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#works_carousel" data-slide-to="1"></li>
+                <li data-target="#works_carousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/carousel/tokyo.jpg" alt="tokyo">
+                    <div class="carousel-caption">
+                        <h4>Night time in Tokyo Downtown</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/carousel/osaka.jpg" alt="osaka">
+                    <div class="carousel-caption">
+                        <h4>Off the street in Osaka</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/carousel/yokohama.jpg" alt="yokohama">
+                    <div class="carousel-caption">
+                        <h4>Wander through Yokohama</h4>
+                    </div>
+                </div>
+            </div>
+            <!--Left and Right Controls -->
+            <a id="left-car" class="left carousel-control" href="#works_carousel" role="button" data-slide="prev">
+                <img src="images/mobile/prev.png">
+            </a>
+            <a id="right-car" class="right carousel-control" href="#works_carousel" role="button" data-slide="next">
+                <img src="images/mobile/next.png">
+            </a>
+        </div>
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="navbar navbar-default" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button id="navButton" type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#navBarBottom">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navBarBottom">
+                <ul class="nav navbar-nav pull-left" id="navBarBottom">
+                	<a name="footer"></a>
+                    <li><a href="#famous_women" class="navList">Famous Women</a></li>
+                    <li><a href="#organizations" class="navList">Organizations</a></li>
+                    <li><a href="#fun_facts" class="navList">Fun Facts</a></li>
+                    <li><a href="#mobile_app" class="navList">Mobile App</a></li>
+                    <li><a href="#works" class="navList">Works</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</body>
+
+</html>

@@ -1,0 +1,358 @@
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0;
+	background-color: #e6e6e6;
+}
+
+/* Animation */
+#above_left {
+	animation: aboveleft .3s;
+}
+
+#above_center {
+	animation: abovecenter .3s;
+}
+
+#above_right {
+	animation: aboveright .3s;
+}
+
+#below_left {
+	animation: belowleft .3s;
+}
+
+#below_center {
+	animation: belowcenter .3s;
+}
+
+#below_right {
+	animation: belowright .3s;
+}
+
+@keyframes aboveleft {
+	0% {transform: translate3d(-100px,0px,0px);}	
+}
+
+@keyframes abovecenter {
+	0% {transform: translate3d(0px,-100px,0px);}
+}
+
+@keyframes aboveright {
+	0% {transform: translate3d(100px,0px,0px);}
+}
+
+@keyframes belowleft {
+	0% {transform: translate3d(-100px,0px,0px);}
+}
+
+@keyframes belowcenter {
+	0% {transform: translate3d(0px,100px,0px);}
+}
+
+@keyframes belowright {
+	0% {transform: translate3d(100px,0px,0px);}
+}
+
+/* Navigation Bar */
+.navbar {
+	background-color: #009999;
+	margin: 0 auto;
+	border-radius: 0;
+	color: #ffffff;
+}
+
+.navbar-brand {
+	padding-bottom: 0.25em;
+}
+
+.navbar-brand p {
+	margin-left: 0.25em;
+}
+
+#pageTitle {
+	color: #ffffff;
+}
+
+#navBarTop li a {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: #FFFFFF;
+	transition: background-color 0.25s ease;
+	color: #ff80d5!important;
+	border: 0.1em black solid;
+	border-radius: 5px;
+	padding: 0.75em;
+	margin-top: 0.15em;
+}
+
+#navBarBottom li a {
+	color: #ffffff;
+}
+
+#navBarBottom li: hover {
+	color: #ff80aa;
+}
+
+/* Section Navigation */
+.secNav {
+	background-color: #4d4d4d;
+	height: 3.5em;
+	padding-bottom: 0.625em;
+	padding-top: 0.625em;
+	color: #ffffff;
+}
+
+.secNav p {
+	font-size: 1.5em;
+}
+
+/* Famous Women */
+.famousWomen {
+	background-color: #e6e6e6;
+}
+
+.thumbnail {
+	margin: 0.95em;	
+	opacity: 0.75;
+}
+
+.thumbnail p {
+	padding: 0.625em;
+}
+
+.box_name {
+	margin: 0;
+	padding-top: 0.625em;
+	color: #248f8f;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.box_date {
+	color: #cccccc;
+	font-size: 0.75em;
+	margin: 0;
+}
+
+.thumbnail:hover {
+	opacity: 1;
+	transition: 0.5s ease-in-out;
+}
+
+.thumbnail img {
+	margin-bottom: 1.25em;
+	transition: 1s ease;
+}
+
+.thumbnail img:hover {
+	transform: rotate(-12deg);
+}
+
+/* List */
+.list {
+	background-color: #e6e6e6;
+}
+
+.list-group-item {
+	background: none; 
+	padding-bottom: 0.35em;
+	opacity: 0.75;
+}
+
+/* Organizations */
+#org_lead {
+	padding-top: 1.25em;
+}
+
+#orglist {
+	position: relative;
+}
+
+#orglist li {
+	color: #009999;
+	opacity: 0.75;
+	padding: 0.5em;
+}
+
+#orglist li:hover {
+	color: red;
+}
+
+#organizations_img {
+	position: absolute;
+	right: 10%;
+	top: 25%;
+}
+
+/* Fun Facts */
+#ff-list-group {
+	margin-left: 1.5em;
+}
+
+.ff-list-item:hover {
+	background-color: #ffffff;
+	transition: 0.5s ease;
+}
+
+.ff_span {
+	color: #009973;
+}
+
+.ff_span:hover {
+	color: red;
+	transition: 0.25s ease;
+}
+
+/* Mobile App */
+#page2 {
+	background-color: #ffffff;
+}
+
+#personalize {
+	font-size: 30px;
+	color: #404040;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#done {
+	float: right;
+	background-color: #3ec5ea;
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid #baeffd;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 5px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#done: hover {
+	opacity: 0.85;
+}
+
+#tap_to_row {
+	border-bottom: 1px solid #999999;
+}
+
+#tap_to {
+	color: #404040;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#want_more_row {
+    border-bottom: 1px solid #999999;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#want_more_row a {
+	text-decoration: none;
+}
+
+#the_list {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.the_list_tr {
+	height: 40px;
+}
+
+.check {
+	width: 40px;
+    padding: 5px;
+    background-image: url(../images/mobile/check.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    cursor: pointer;
+    height: 25px;
+}
+
+.empty {
+	width: 40px;
+    padding: 5px;
+    background-image: url(../images/mobile/empty.png);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    cursor: pointer;
+    height: 25px;
+}
+
+.drag {
+	width: 40px;
+    padding: 5px;
+    background-image: url(../images/mobile/stack.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    cursor: pointer;
+    height: 25px;
+}
+
+#mobile_tile_foot {
+	background-color: #4e677e;
+    padding: 10px;
+	text-align: center;
+}
+
+#mobile_tile_foot div {
+	padding: 10px 0;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#mobile_tile_foot span {
+	background-color: #3ec5ea;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #baeffd;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px;
+    opacity: 1;
+}
+
+#mobile_tile_foot span: hover {
+	opacity: 0.85;
+}
+
+#logo {
+	width: 150px;
+	padding: 10px;
+}
+
+#settings_icon {
+	width: 30px;
+	float: right;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.tab_img {	
+    margin: 0;
+    border: #ffffff 1px solid;    
+}
+
+.table_p {
+	color: #ffffff;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-left: 10px;
+	z-index: 5;
+}
+
+/* Carousel */
+#works_carousel {
+	margin: 0 auto;
+	height: 50%;
+	width: 50%;
+	background-color: #e6e6e6;
+}
+
+.carousel-control {
+	padding-top: 30%;
+}
